@@ -1,0 +1,17 @@
+# Some sensible files to ignore
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+# Thumbnail cache files
+._*
+Thumbs.db
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Files needed for Jekyll
+_site
+
+.task
+
+
