@@ -37,6 +37,9 @@ nbproject
 Desktop.ini
 Thumbs.db
 
+# VM stuff
+.vagrant
+
 # Komodo
 .komodotools
 *.komodoproject
