@@ -19,6 +19,8 @@ _site
 .Spotlight-V100
 .Trashes
 
+.bash_history
+
 # My Task files
 .task
 
