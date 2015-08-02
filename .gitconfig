@@ -31,7 +31,15 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = francoislebec
+	name = Francois Le Bec
 	email = francois.lebec@gmail.com
 [push]
 	default = simple
+[core]
+	excludesfile = /Users/francois/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
